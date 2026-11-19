@@ -1,0 +1,21 @@
+{
+  "name": "⏤͟͟ 𝐌𝐚𝐲𝐛𝐞 Ä𝐫ā𝐟ā𝐭 ! ¡ 🕸",
+  "description": "⏤͟͟ 𝐌𝐚𝐲𝐛𝐞 Ä𝐫ā𝐟ā𝐭 ! ¡ 🕸 WhatsApp bot made by ArafatMD official",
+  "logo": "https://d.uguu.se/qSCCRRRzOxKQ.jpg",
+  "keywords": ["bot","⏤͟͟ 𝐌𝐚𝐲𝐛𝐞 Ä𝐫ā𝐟ā𝐭 ! ¡ 🕸","⏤͟͟ 𝐌𝐚𝐲𝐛𝐞 Ä𝐫ā𝐟ā𝐭 ! ¡ 🕸"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the ⏤͟͟ 𝐌𝐚𝐲𝐛𝐞 Ä𝐫ā𝐟ā𝐭 ! ¡ 🕸 session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
